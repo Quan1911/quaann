@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Interactive Photo Gallery</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="p-6">
+    <h1 class="text-4xl font-extrabold text-gray-900 mb-8 text-center">My Accessible Photo Gallery</h1>
+
+    <div class="gallery-container">
+        <!-- Photo 1: Dodge Challenger -->
+        <figure class="photo-figure" role="img" aria-labelledby="caption-photo1">
+            <img src="https://www.topgear.com/sites/default/files/cars-car/carousel/2019/01/dg019_004clan2kt8c8qmtrmpcl3p72agsepl.jpg?w=1784&h=1004" alt="A red Dodge Challenger parked on a street" />
+            <figcaption id="caption-photo1">Dodge Challenger</figcaption>
+        </figure>
+
+        <!-- Photo 2: Mercedes S65 AMG -->
+        <figure class="photo-figure" role="img" aria-labelledby="caption-photo2">
+            <img src="https://media.vietnamplus.vn/images/7255a701687d11cb8c6bbc58a6c8078516bde60b30cd567504d3934b5928c40e65f04c7bb45afc70bfdbab7f66d2f77d/Me_1.jpg" alt="A white Mercedes S65 AMG sedan" />
+            <figcaption id="caption-photo2">Mercedes S65 AMG</figcaption>
+        </figure>
+
+        <!-- Photo 3: Rolls-Royce Phantom -->
+        <figure class="photo-figure" role="img" aria-labelledby="caption-photo3">
+            <img src="https://mediapool.bmwgroup.com/cache/P9/202408/P90564792/P90564792-phantom-scintilla-2666px.jpg" alt="A luxurious Rolls-Royce Phantom with a dark exterior" />
+            <figcaption id="caption-photo3">Rolls-Royce Phantom</figcaption>
+        </figure>
+
+        <!-- Photo 4: Ducati Panigale V4 -->
+        <figure class="photo-figure" role="img" aria-labelledby="caption-photo4">
+            <img src="https://motosaigon.vn/wp-content/uploads/2020/07/Ducati-Panigale-V4-2020-motosaigon.vn5_.jpg" alt="A sleek red Ducati Panigale V4 motorcycle" />
+            <figcaption id="caption-photo4">Ducati Panigale V4</figcaption>
+        </figure>
+
+        <!-- Photo 5: BMW S1000RR -->
+        <figure class="photo-figure" role="img" aria-labelledby="caption-photo5">
+            <img src="https://img.tinxe.vn/resize/1000x-/2019/12/13/XForF7yt/bmw-s1000rr-2020-2-6ccd.jpg" alt="A white and blue BMW S1000RR sport bike" />
+            <figcaption id="caption-photo5">BMW S1000RR</figcaption>
+        </figure>
+
+        <!-- Photo 6: Nissan GT-R -->
+        <figure class="photo-figure" role="img" aria-labelledby="caption-photo6">
+            <img src="https://otoxemay.vn/storage/images/2024/06/6501718855139-nissan-khai-tu-huyen-thoai-gt-r-r35-anhdaidien.jpg" alt="A grey Nissan GT-R R35 sports car" />
+            <figcaption id="caption-photo6">Nissan GT-R</figcaption>
+        </figure>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
